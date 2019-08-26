@@ -1,0 +1,27 @@
+{
+  "name": "minimum-react-less-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "xc1427 <xichen1427@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack -w",
+    "serve": "http-server ./public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
